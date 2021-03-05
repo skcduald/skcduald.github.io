@@ -12,26 +12,46 @@ body {
   color: #999;
 }
 
-
-.aboutme{
-  padding: 0;
-  width: 680px;
-  height: 50px;
-  margin-left: 100px;
-  margin-top: 30px;
+.aboutmewrapper {
+  display: flex;
+  justify-content: center;
 }
 
-.intro {
+.aboutme {
   padding: 0;
-  width: 600px;*
-  height: 100px;
+  width: 680px;
   margin-left: 100px;
-  margin-top: 0;
+  margin-top:100px;
+  margin-right: 100px;
+}
+
+.linewrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.line {
+  padding: 0;
+  width: 680px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.mynamewrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.myname {
+  padding: 0;
+  width: 680px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .wrapper {
   display: flex;
-  height: 80vh;
+  height: 70vh;
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
@@ -133,6 +153,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   opacity: 1;
   max-height: 6em;
   margin-top: 0.2em;
+}
+
+.outrowrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .outro {
